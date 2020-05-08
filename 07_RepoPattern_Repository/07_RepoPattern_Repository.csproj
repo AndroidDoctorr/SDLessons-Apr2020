@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IContent.cs" />
+    <Compile Include="Movie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Show.cs" />
     <Compile Include="StreamingContent.cs" />
     <Compile Include="StreamingContentRepository.cs" />
   </ItemGroup>

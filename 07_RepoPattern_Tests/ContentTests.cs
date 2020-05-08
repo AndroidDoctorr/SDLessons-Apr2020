@@ -63,5 +63,21 @@ namespace _07_RepoPattern_Tests
 
             Assert.AreEqual(expectedFamilyFriendly, actual);
         }
+
+
+        [TestMethod]
+        public void MovieTest()
+        {
+            Movie movie = new Movie(
+                "The Room",
+                "Best movie ever",
+                6.0,
+                99,
+                1800,
+                MaturityRating.R,
+                GenreType.Bromance);
+
+            Console.WriteLine($"{movie.Title} made ${movie.BoxOfficeTake} at the box office");
+        }
     }
 }
