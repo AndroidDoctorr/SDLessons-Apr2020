@@ -10,6 +10,7 @@ namespace _07_RepoPattern_Repository
     {
         static void Main(string[] args)
         {
+            // foreach (int num in Enumerable.Range(1, 100)) { Console.WriteLine(((num%3==0?"Fizz":"") + (num%5==0?"Buzz":"")) || num.ToString() ); }
             ProgramUI UI = new ProgramUI();
             UI.Run();
         }

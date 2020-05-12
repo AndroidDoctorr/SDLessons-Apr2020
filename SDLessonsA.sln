@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repo_UI", "Repo_UI\Repo_UI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Interfaces", "09_Interfaces\09_Interfaces.csproj", "{98BA3E07-9669-417B-97B5-F5C3689C1393}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StreamingContent_UI_Refactor", "10_StreamingContent_UI_Refactor\10_StreamingContent_UI_Refactor.csproj", "{9187FB31-88F6-471F-A54C-1F880024F3D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{98BA3E07-9669-417B-97B5-F5C3689C1393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98BA3E07-9669-417B-97B5-F5C3689C1393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98BA3E07-9669-417B-97B5-F5C3689C1393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9187FB31-88F6-471F-A54C-1F880024F3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9187FB31-88F6-471F-A54C-1F880024F3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9187FB31-88F6-471F-A54C-1F880024F3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9187FB31-88F6-471F-A54C-1F880024F3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
